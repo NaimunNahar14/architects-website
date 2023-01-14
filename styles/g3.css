@@ -1,0 +1,387 @@
+* {
+    font-family: 'Work Sans';
+}
+
+/* navigation Styles */
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-nav ul li a {
+    font-size: 18px;
+}
+ul {
+    display: flex;
+    gap: 18px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #424242;
+}
+h1 {
+    color: #131313;
+    text-align: center;
+    font-size: 45px;
+}
+
+/* banner section */
+.container{
+    width: 100%;
+background: rgba(255, 144, 14, 0.1);
+}
+.banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.btn {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.section-title {
+    width: 50%;
+}
+.section-title p{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+width: 868px;
+}
+.img {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+/* Quick List of Our Features */
+.features-info{
+    display: flex;
+}
+.images{
+    margin-top: 85px;
+    margin-right: 73px;
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 21px;
+}
+.image{
+    width: 342px;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+.title{
+    width: 468px;
+    left: 1082px;
+top: 1609px;
+margin-top: 250px;
+
+}
+.author{
+    width: 537px;
+    font-weight: 400;
+font-size: 16px;
+left: 1082px;
+top: 1739px;
+color: #727272;
+
+}
+/* Features you will love & enjoy  */
+
+.section-info{
+    display: flex;
+}
+.section-container{
+    width: 586px;
+height: 982px;
+margin-top: 250px;
+margin-left: 140px;
+margin-right: 54px;
+}
+.bar{
+    position: absolute;
+width: 5px;
+height: 106px;
+left: 240px;
+background: #FF900E;
+}
+.sec-heading{
+    font-weight: 700;
+font-size: 45px;
+width: 468px;
+margin-left: 55px;
+color: #131313;
+}
+.sec-author{
+    width: 586px;
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+margin-left: 85px;
+}
+.sec-contain{
+    width: 586px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+}
+.sec-title{
+    font-weight: 600;
+font-size: 20px;
+width: 295px;
+color: #131313;
+margin-left: 110px;
+
+}
+.sec-des{
+    font-weight: 400;
+font-size: 16px;
+width: 514px;
+
+}
+.Section-img{
+    width: 708px;
+height: 982px;
+left: 972px;
+top: 2245px;
+margin-top: 130px;
+margin-left: 54px;
+border-radius: 8px;
+}
+  .Section-img .sec-btn{
+    width: 342px;
+height: 200px;
+left: 50%;
+top:50%;
+transform: translate(-50%, -95%);
+-ms-transform: translate(-50%,-95%);
+
+border: none;
+background: #FF900E;
+border-radius: 8px;
+font-weight: 700;
+font-size: 45px;
+width: 258px;
+color: #FFFFFF;
+text-align: center;
+  }
+  /* -- Some Facts -- */
+
+.sec-three-contain{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 230px;
+
+}
+.sec-three-title{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+margin-right: 850px;
+}
+.sec-three-des{
+    font-weight: 400;
+font-size: 16px;
+width: 542px;
+margin-left: 260px;
+}
+.sec-three-details{
+    width: 200px;
+height: 200px;
+border: 1px solid #FF900E;
+border-radius: 8px;
+text-align: center;
+left: 326px;
+margin-top: 45px;
+padding-top: 45px;
+padding-left: 35px;
+padding-right: 36px;
+padding-bottom: 59px;
+transition: width 1s , height 1s, transform 1s ;
+}
+.sec-three-details:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+.sec-three-text1{
+    font-weight: 600;
+font-size: 45px;
+color: #424242;
+}
+.sec-three-text{
+    font-weight: 600;
+font-size: 20px;
+color: #727272;
+}
+/* -- Our Sponspors -- */
+.sec-four-text01{
+    margin-top: 180px;
+    margin-bottom: 10px;
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+align-items: center;
+}
+.sec-four-text{
+    margin-top: 24px;
+    font-weight: 400;
+font-size: 16px;
+text-align: center;
+
+}
+.spn{
+ margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    justify-items: center;
+    gap: 20px;
+    mix-blend-mode: luminosity;
+
+}
+/* -- Featured products  - */
+.feature-products {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 40px 0;
+  }
+  .feature-products-img{
+    width: 50%; 
+    display: flex; 
+    justify-content: center
+  }
+  /* -- Footer Part -- */
+  .footer-item{
+    margin-left: 240px;
+  margin-right: 240px;
+    width: 1440px;
+height: 100px;
+background: #FFF4E7;
+border-radius: 8px;
+  }
+  .footer-text{
+    font-weight: 400;
+font-size: 20px;
+color: #424242;
+text-align: center;
+
+  }
+  /* Mobile Device */
+  @media only screen and (max-width:576px) {
+    /* Banner part */
+    .main-nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+
+    } 
+    .section-title p {
+        width: 198px;
+    }
+    h1{
+        font-size: 24px;
+     text-align: left;
+    }
+    .img {
+        display: none;
+    }
+    /* Quick List of Our Features */
+    .author{
+        width: 396px;
+    }
+    .features-info{
+        flex-direction: column-reverse;
+    }
+     
+    .images{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    /* Features you will love & enjoy  */
+    .section-info{
+        display: flex;
+       flex-direction: column-reverse;
+       justify-content: center;
+       flex-wrap: wrap;
+       align-content: center;
+    }
+    .sec-btn{
+        margin-left: 300px;
+    }
+    .bar{
+        display: none;
+    }
+    .section-container{
+        width: 86px;
+        margin-left: 130px;
+    }
+    .sec-author{
+        width:250px;
+        font-weight: 400;
+        margin-left: 85px;
+    }
+    .sec-des{
+        font-weight: 400;
+        font-size: 16px;
+        width:250px ;
+        margin-left: 95px;
+    }
+    /* Some Facts */
+    .sec-three-title{
+        margin-right: 0;
+    }
+    .sec-three-des{
+        width:386px;
+        margin-left: 10px;
+    }
+    .sec-three-contain{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    /*  Our Sponspors */
+    .sec-four-text01{
+        margin-top: 100px;
+    }
+    .spn{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    justify-items: start;
+    }
+    /* Featured products */
+    .feature-products{
+        display: flex;
+        flex-direction:row-reverse ;
+        flex-wrap: wrap;
+      
+    }
+    .feature-products-img{
+       display: flex;
+       flex-direction: row-reverse;
+       justify-content: left;
+       margin-top: 0;
+       width:400px;
+    }
+    /* Footer part */
+    .footer-item{
+        background: #FFF4E7;
+border-radius: 8px;
+margin: 20px 0px;
+width: 396px;
+    }
+    
+  }
+  /* Done */
